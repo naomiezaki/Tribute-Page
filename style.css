@@ -1,0 +1,69 @@
+#main{
+  padding: 10px;
+  margin: 10px;
+  background-color: pink;
+}
+p,h1,h3, li{
+  font-family:Helvetica;
+}
+#title{
+  text-align: center;
+}
+#image{
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+#tribute-info{
+  padding: 10px;
+  background-color: #DFA0E1;
+}
+
+#img-caption{
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+#albums-info{
+  padding: 10px;
+  background-color: #DF7DB4;
+}
+
+#albums{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#album-item{
+  max-width: 15%;
+  display:block;
+  height: auto;
+}
+
+@media only screen and (max-width: 1320px) {
+  #album-item{
+    max-width: 20%;
+    display: block;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #album-item{
+    max-width: 34%;
+    display: block;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #album-item{
+    max-width: 50%;
+    display: block;
+    height: auto;
+  }
+}
